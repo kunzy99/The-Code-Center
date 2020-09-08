@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Navy</title>
+</head>
+<body>
+
+	<h1>Colibarian Navy Recruitment Portal</h1>
+	<p>Kindly fill with accurate infomation</p>
+
+	<hr/>
+
+	<a href="/">Defence Admin</a>
+	<a href="/airforce">Colibar Airforce</a>
+	<a href="/army">Colibar Army</a>
+	<a href="/navy">Colibar Navy</a>
+
+	<form action="/navy" method="post">
+		
+		<p>Firstname: <input type="text" name="fname"></p>
+		<p>Middlename: <input type="text" name="mname"></p>
+		<p>Surname: <input type="text" name="surname"></p>
+		<p>Gender: Male<input type="radio" name="sex" value="Male"/>
+					Female<input type="radio" name="sex" value="Female"/>
+			</p>
+		<p>Date of Birth: <input type="date" name="dob"/></p>
+		<p>Telephone: <input type="text" name="telephone"></p>
+		<p>Height: <select name="height">
+						<option>Your height</option>
+						<option value="A">1.5metres</option>
+						<option value="B">1.6metres</option>
+						<option value="C">1.7metres</option>
+						<option value="D">1.8metres</option>
+						<option value="E">1.9metres</option>
+						<option value="F">2.0metres</option>
+						<option value="G">Above 2.0metres</option>
+
+			</select></p>
+		<p>Weight: <select name="weight">
+						<option>Your weight</option>
+						<option value="A">60-65Kg</option>
+						<option value="B">66-69Kg</option>
+						<option value="C">70-75Kg</option>
+						<option value="D">76-79kg</option>
+						<option value="E">Above 79Kg</option>
+			</select></p>
+
+		<p>Hair Color: Black<input type="radio" name="hair" value="black"/>
+						Grey<input type="radio" name="hair" value="grey"/>
+
+		</p>
+
+		<p>Eye Color: Black<input type="radio" name="eye" value="black"/>
+						Brown<input type="radio" name="eye" value="brown"/>
+						Blue<input type="radio" name="eye" value="blue"/>
+		</p>
+
+		<p>Guarantor: <input type="text" name="guarantor"></p>
+		<p>Address: <br><textarea name="address" rows="10" cols="25"></textarea></p>
+
+		<button type="submit">Click to Apply!</button>
+
+
+
+	</form>
+
+</body>
+</html>
